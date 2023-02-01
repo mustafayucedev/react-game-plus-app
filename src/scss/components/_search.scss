@@ -1,0 +1,98 @@
+.search-section {
+    padding: 90px 0;
+    background: url("../../../public/images/search-bg.webp") no-repeat left center;
+    background-size: cover;
+    @include max($md) {
+        padding: 30px 0;
+    }
+}
+
+.search {
+    &-header {
+        text-align: center;
+        color: $white-color;
+        margin-bottom: 50px;
+        h1 {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 40px;
+            margin-bottom: 15px;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 1.3;
+            max-width: 793px;
+            margin: 0 auto;
+        }
+        @include max($md) {
+            margin-bottom: 30px;
+            h1 {
+                font-size: 24px;
+                line-height: 30px;
+            }
+            h2 {
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+    }
+    &-content {
+        max-width: 635px;
+        margin: 0 auto;
+        position: relative;
+        form {
+            position: relative;
+            input {
+                display: block;
+                width: 100%;
+                height: 56px;
+                background-color: $white-color;
+                font-size: 20px;
+                color: $gray-color;
+                padding: 0 55px;
+                &::placeholder {
+                    color: $search-color;
+                }
+            }
+            img {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 15px;
+            }
+            @include max($md) {
+                input {
+                    font-size: 16px;
+                    height: 45px;
+                }
+            }
+        }
+        .search-result {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            height: 175px;
+            overflow-y: auto;
+            background-color: $white-color;
+            padding: 10px 55px;
+            display: none;
+            ul {
+                li {
+                    margin-bottom: 10px;
+                    a {
+                        color: $gray-color;
+                        font-size: 20px;
+                    }
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            &.active {
+                display: block;
+            }
+        }
+    }
+}

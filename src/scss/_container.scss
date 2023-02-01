@@ -1,0 +1,35 @@
+.container {
+	padding-right: $gutter;
+	padding-left: $gutter;
+	@include min($lg) {
+		max-width: 1220px + $gutter * 2 !important;
+    }
+}
+
+.row {
+	margin-right: -10px;
+	margin-left: -10px;
+	.col,
+	[class*="col-"] {
+		padding-right: $gutter;
+		padding-left: $gutter;
+    }
+    @include max($sm) {
+        margin-right: -$gutter / 2;
+        margin-left: -$gutter / 2;
+        .col,
+        [class*="col-"] {
+            padding-right: $gutter / 2;
+            padding-left: $gutter / 2;
+        }
+    }
+	&.no-gutters {
+		margin-right: 0;
+		margin-left: 0;
+		> .col,
+		> [class*="col-"] {
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "character": "a",
+        "games": ["A Little To The Left (Steam)", "A Plague Tale: Innocence (Steam)", "A Plague Tale: Requiem (Steam)", "A-Train PC Classic (Steam)"],
+        "category": "shooters"
+    },
+    {
+        "id": 2,
+        "character": "b",
+        "games": ["B Little To The Left (Steam)", "B Plague Tale: Innocence (Steam)", "B Plague Tale: Requiem (Steam)", "B-Train PC Classic (Steam)"],
+        "category": "action"
+    },
+    {
+        "id": 3,
+        "character": "c",
+        "games": ["C Little To The Left (Steam)", "C Plague Tale: Innocence (Steam)", "C Plague Tale: Requiem (Steam)", "C-Train PC Classic (Steam)"],
+        "category": "rpg"
+    },
+    {
+        "id": 4,
+        "character": "d",
+        "games": ["D Little To The Left (Steam)", "D Plague Tale: Innocence (Steam)", "D Plague Tale: Requiem (Steam)", "D-Train PC Classic (Steam)"],
+        "category": "racing"
+    },
+    {
+        "id": 5,
+        "character": "e",
+        "games": ["E Little To The Left (Steam)", "E Plague Tale: Innocence (Steam)", "E Plague Tale: Requiem (Steam)", "E-Train PC Classic (Steam)"],
+        "category": "simulation"
+    },
+    {
+        "id": 6,
+        "character": "f",
+        "games": ["F Little To The Left (Steam)", "F Plague Tale: Innocence (Steam)", "F Plague Tale: Requiem (Steam)", "F-Train PC Classic (Steam)"],
+        "category": "simulation"
+    },
+    {
+        "id": 7,
+        "character": "g",
+        "games": ["G Little To The Left (Steam)", "G Plague Tale: Innocence (Steam)", "G Plague Tale: Requiem (Steam)", "G-Train PC Classic (Steam)"],
+        "category": "racing"
+    },
+    {
+        "id": 8,
+        "character": "h",
+        "games": ["H Little To The Left (Steam)", "H Plague Tale: Innocence (Steam)", "H Plague Tale: Requiem (Steam)", "H-Train PC Classic (Steam)"],
+        "category": "shooters 2"
+    }
+]
